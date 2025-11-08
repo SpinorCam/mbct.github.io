@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460">
+  <defs>
+    <radialGradient id="brain-core" cx="50%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#ffe9ff" stop-opacity="0.95" />
+      <stop offset="45%" stop-color="#c7b4ff" stop-opacity="0.92" />
+      <stop offset="72%" stop-color="#7ebdff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#2646ad" stop-opacity="0.95" />
+    </radialGradient>
+    <radialGradient id="brain-rim" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffb4ff" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#7fdcff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#182c78" stop-opacity="0.9" />
+    </radialGradient>
+    <linearGradient id="fissure" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8ec8ff" stop-opacity="0.55" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <path
+      d="M298 36c-64 0-114 38-134 91-48 4-82 44-82 96 0 42 20 74 52 94-2 10-3 21-3 32 0 67 53 117 126 117 20 0 39-4 55-11 13 13 33 21 56 21 61 0 106-44 110-105 36-15 62-50 62-95 0-46-29-87-73-101 0-83-64-139-169-139z"
+      fill="url(#brain-core)"
+      stroke="rgba(255,255,255,0.35)"
+      stroke-width="3"
+    />
+    <path
+      d="M204 92c-30 12-50 42-50 74 0 8 1 16 3 23-22 16-36 44-36 70 0 34 20 60 51 68-3 9-5 19-5 30 0 55 42 95 101 95 16 0 32-3 45-9 12 9 28 14 46 14 54 0 93-38 97-91 28-13 47-41 47-75 0-37-22-70-55-81 1-72-51-123-134-123-40 0-76 17-110 54z"
+      fill="url(#brain-rim)"
+      opacity="0.75"
+    />
+  </g>
+  <g stroke="url(#fissure)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M184 182c38-42 88-64 136-54 48 10 88 52 100 104" />
+    <path d="M220 260c34-20 74-24 118-8 26 10 50 28 70 54" />
+    <path d="M278 140c-12 32-10 68 6 102" />
+    <path d="M340 154c24 26 36 56 34 96" />
+    <path d="M256 318c20 18 50 28 80 26" />
+  </g>
+  <g opacity="0.4">
+    <circle cx="216" cy="128" r="14" fill="#ffe1ff" />
+    <circle cx="420" cy="206" r="12" fill="#9fd6ff" />
+    <circle cx="248" cy="324" r="10" fill="#ffc4ff" />
+    <circle cx="356" cy="108" r="11" fill="#a9ddff" />
+    <circle cx="380" cy="302" r="9" fill="#ffe5ff" />
+  </g>
+</svg>

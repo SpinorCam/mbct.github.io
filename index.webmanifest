@@ -1,18 +1,21 @@
 {
-  "name": "Kevin Zhou",
-  "short_name": "Kevin Zhou",
+  "name": "MBCT Trainee Hub",
+  "short_name": "MBCT",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
-  "icons": [{
-    "src": "img/icon-192.png",
-    "sizes": "192x192",
-    "type": "image/png"
-    }, {
-    "src": "img/icon-512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-     }],
+  "theme_color": "#123a7a",
+  "background_color": "#f5f7fb",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "display": "standalone",
   "start_url": "/?utm_source=web_app_manifest"
 }
